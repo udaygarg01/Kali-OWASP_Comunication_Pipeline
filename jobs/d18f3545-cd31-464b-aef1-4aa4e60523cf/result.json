@@ -1,0 +1,2659 @@
+{
+	"@programName": "ZAP",
+	"@version": "2.17.0",
+	"@generated": "Mon, 5 Jan 2026 00:50:22",
+	"created": "2026-01-05T00:50:22.501272572Z",
+	"insights":[
+		{
+			"level": "Low",
+			"reason": "Warning",
+			"site": "",
+			"key": "insight.log.error",
+			"description": "ZAP errors logged - see the zap.log file for details",
+			"statistic": "1"
+		},
+		{
+			"level": "Low",
+			"reason": "Warning",
+			"site": "",
+			"key": "insight.log.warn",
+			"description": "ZAP warnings logged - see the zap.log file for details",
+			"statistic": "4"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://exceleratetechnologies.com",
+			"key": "insight.code.2xx",
+			"description": "Percentage of responses with status code 2xx",
+			"statistic": "72"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://exceleratetechnologies.com",
+			"key": "insight.code.3xx",
+			"description": "Percentage of responses with status code 3xx",
+			"statistic": "4"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://exceleratetechnologies.com",
+			"key": "insight.code.4xx",
+			"description": "Percentage of responses with status code 4xx",
+			"statistic": "23"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://exceleratetechnologies.com",
+			"key": "insight.endpoint.ctype.application/json",
+			"description": "Percentage of endpoints with content type application/json",
+			"statistic": "9"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://exceleratetechnologies.com",
+			"key": "insight.endpoint.ctype.application/rss+xml",
+			"description": "Percentage of endpoints with content type application/rss+xml",
+			"statistic": "6"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://exceleratetechnologies.com",
+			"key": "insight.endpoint.ctype.application/xml",
+			"description": "Percentage of endpoints with content type application/xml",
+			"statistic": "1"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://exceleratetechnologies.com",
+			"key": "insight.endpoint.ctype.image/avif",
+			"description": "Percentage of endpoints with content type image/avif",
+			"statistic": "2"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://exceleratetechnologies.com",
+			"key": "insight.endpoint.ctype.image/jpeg",
+			"description": "Percentage of endpoints with content type image/jpeg",
+			"statistic": "2"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://exceleratetechnologies.com",
+			"key": "insight.endpoint.ctype.image/png",
+			"description": "Percentage of endpoints with content type image/png",
+			"statistic": "4"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://exceleratetechnologies.com",
+			"key": "insight.endpoint.ctype.image/webp",
+			"description": "Percentage of endpoints with content type image/webp",
+			"statistic": "30"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://exceleratetechnologies.com",
+			"key": "insight.endpoint.ctype.text/css",
+			"description": "Percentage of endpoints with content type text/css",
+			"statistic": "12"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://exceleratetechnologies.com",
+			"key": "insight.endpoint.ctype.text/html",
+			"description": "Percentage of endpoints with content type text/html",
+			"statistic": "21"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://exceleratetechnologies.com",
+			"key": "insight.endpoint.ctype.text/javascript",
+			"description": "Percentage of endpoints with content type text/javascript",
+			"statistic": "8"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://exceleratetechnologies.com",
+			"key": "insight.endpoint.ctype.text/plain",
+			"description": "Percentage of endpoints with content type text/plain",
+			"statistic": "1"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://exceleratetechnologies.com",
+			"key": "insight.endpoint.ctype.text/xml",
+			"description": "Percentage of endpoints with content type text/xml",
+			"statistic": "1"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://exceleratetechnologies.com",
+			"key": "insight.endpoint.method.GET",
+			"description": "Percentage of endpoints with method GET",
+			"statistic": "99"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://exceleratetechnologies.com",
+			"key": "insight.endpoint.method.POST",
+			"description": "Percentage of endpoints with method POST",
+			"statistic": "1"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://exceleratetechnologies.com",
+			"key": "insight.endpoint.total",
+			"description": "Count of total endpoints",
+			"statistic": "565"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://exceleratetechnologies.com",
+			"key": "insight.response.slow",
+			"description": "Percentage of slow responses",
+			"statistic": "100"
+		}
+	],
+	"site":[ 
+		{
+			"@name": "https://exceleratetechnologies.com",
+			"@host": "exceleratetechnologies.com",
+			"@port": "443",
+			"@ssl": "true",
+			"alerts": [ 
+				{
+					"pluginid": "10003",
+					"alertRef": "10003",
+					"alert": "Vulnerable JS Library",
+					"name": "Vulnerable JS Library",
+					"riskcode": "3",
+					"confidence": "2",
+					"riskdesc": "High (Medium)",
+					"desc": "<p>The identified library appears to be vulnerable.</p>",
+					"instances":[ 
+						{
+							"id": "1115",
+							"uri": "https://exceleratetechnologies.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/tableToExcel/tableToExcel.js",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-content\/plugins\/royal-elementor-addons\/assets\/js\/lib\/tableToExcel\/tableToExcel.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ".version=\"2.24.0\",e=xt,n.fn=vn,n.min=function(){return Ct(\"isBefore\",[].slice.call(arguments,0))},n.max=function(){return Ct(\"isAfter\",[].slice.call(arguments,0))},n.now=function(){return Date.now?Date.now():+new Date},n.utc=d,n.unix=function(e){return xt(1e3*e)},n.months=function(e,t){return kn(e,t,\"months\")},n.isDate=o,n.locale=lt,n.invalid=m,n.duration=Zt,n.isMoment=",
+							"otherinfo": "The identified library moment.js, version 2.24.0 is vulnerable.\nCVE-2022-31129\nCVE-2022-24785\nhttps://github.com/moment/moment/security/advisories/GHSA-wc69-rhjr-hc9g\nhttps://security.snyk.io/vuln/SNYK-JS-MOMENT-2944238\nhttps://github.com/moment/moment/security/advisories/GHSA-8hfj-j24r-96c4\n"
+						}
+					],
+					"count": "1",
+					"systemic": false,
+					"solution": "<p>Upgrade to the latest version of the affected library.</p>",
+					"otherinfo": "<p>The identified library moment.js, version 2.24.0 is vulnerable.</p><p>CVE-2022-31129</p><p>CVE-2022-24785</p><p>https://github.com/moment/moment/security/advisories/GHSA-wc69-rhjr-hc9g</p><p>https://security.snyk.io/vuln/SNYK-JS-MOMENT-2944238</p><p>https://github.com/moment/moment/security/advisories/GHSA-8hfj-j24r-96c4</p><p></p>",
+					"reference": "<p>https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/</p>",
+					"cweid": "1395",
+					"wascid": "-1",
+					"sourceid": "884"
+				},
+				{
+					"pluginid": "10202",
+					"alertRef": "10202",
+					"alert": "Absence of Anti-CSRF Tokens",
+					"name": "Absence of Anti-CSRF Tokens",
+					"riskcode": "2",
+					"confidence": "1",
+					"riskdesc": "Medium (Low)",
+					"desc": "<p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>",
+					"instances":[ 
+						{
+							"id": "214",
+							"uri": "https://exceleratetechnologies.com/contact-us/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/contact-us\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form class=\"elementor-form\" method=\"post\" name=\"Contact Us\" aria-label=\"Contact Us\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 1: \"form-field-email\" \"form-field-field_38af2e1\" \"form-field-field_d180781\" \"form-field-field_e02732f\" \"form-field-name\" \"form_id\" \"post_id\" \"queried_id\" \"referer_title\" ]."
+						},
+						{
+							"id": "483",
+							"uri": "https://exceleratetechnologies.com/wp-login.php",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form name=\"loginform\" id=\"loginform\" action=\"https://exceleratetechnologies.com/wp-login.php\" method=\"post\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 1: \"redirect_to\" \"rememberme\" \"testcookie\" \"user_login\" \"user_pass\" \"wp-submit\" ]."
+						},
+						{
+							"id": "98",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?action=lostpassword",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (action)",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form name=\"lostpasswordform\" id=\"lostpasswordform\" action=\"https://exceleratetechnologies.com/wp-login.php?action=lostpassword\" method=\"post\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 1: \"redirect_to\" \"user_login\" \"wp-submit\" ]."
+						},
+						{
+							"id": "62",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fexceleratetechnologies.com%2Fwp-admin%2F",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (reauth,redirect_to)",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form name=\"loginform\" id=\"loginform\" action=\"https://exceleratetechnologies.com/wp-login.php\" method=\"post\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 1: \"redirect_to\" \"rememberme\" \"testcookie\" \"user_login\" \"user_pass\" \"wp-submit\" ]."
+						},
+						{
+							"id": "591",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?action=lostpassword",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (action)(redirect_to,user_login,wp-submit)",
+							"method": "POST",
+							"param": "",
+							"attack": "",
+							"evidence": "<form name=\"lostpasswordform\" id=\"lostpasswordform\" action=\"https://exceleratetechnologies.com/wp-login.php?action=lostpassword\" method=\"post\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 1: \"redirect_to\" \"user_login\" \"wp-submit\" ]."
+						}
+					],
+					"count": "5",
+					"systemic": true,
+					"solution": "<p>Phase: Architecture and Design</p><p>Use a vetted library or framework that does not allow this weakness to occur or provides constructs that make this weakness easier to avoid.</p><p>For example, use anti-CSRF packages such as the OWASP CSRFGuard.</p><p></p><p>Phase: Implementation</p><p>Ensure that your application is free of cross-site scripting issues, because most CSRF defenses can be bypassed using attacker-controlled script.</p><p></p><p>Phase: Architecture and Design</p><p>Generate a unique nonce for each form, place the nonce into the form, and verify the nonce upon receipt of the form. Be sure that the nonce is not predictable (CWE-330).</p><p>Note that this can be bypassed using XSS.</p><p></p><p>Identify especially dangerous operations. When the user performs a dangerous operation, send a separate confirmation request to ensure that the user intended to perform that operation.</p><p>Note that this can be bypassed using XSS.</p><p></p><p>Use the ESAPI Session Management control.</p><p>This control includes a component for CSRF.</p><p></p><p>Do not use the GET method for any request that triggers a state change.</p><p></p><p>Phase: Implementation</p><p>Check the HTTP Referer header to see if the request originated from an expected page. This could break legitimate functionality, because users or proxies may have disabled sending the Referer for privacy reasons.</p>",
+					"otherinfo": "<p>No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 1: \"form-field-email\" \"form-field-field_38af2e1\" \"form-field-field_d180781\" \"form-field-field_e02732f\" \"form-field-name\" \"form_id\" \"post_id\" \"queried_id\" \"referer_title\" ].</p>",
+					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html</p><p>https://cwe.mitre.org/data/definitions/352.html</p>",
+					"cweid": "352",
+					"wascid": "9",
+					"sourceid": "213"
+				},
+				{
+					"pluginid": "10055",
+					"alertRef": "10055-13",
+					"alert": "CSP: Failure to Define Directive with No Fallback",
+					"name": "CSP: Failure to Define Directive with No Fallback",
+					"riskcode": "2",
+					"confidence": "3",
+					"riskdesc": "Medium (High)",
+					"desc": "<p>The Content Security Policy fails to define one of the directives that has no fallback. Missing/excluding them is the same as allowing anything.</p>",
+					"instances":[ 
+						{
+							"id": "476",
+							"uri": "https://exceleratetechnologies.com/wp-login.php",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php",
+							"method": "GET",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "frame-ancestors 'self';",
+							"otherinfo": "The directive(s): form-action is/are among the directives that do not fallback to default-src."
+						},
+						{
+							"id": "89",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?action=lostpassword",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (action)",
+							"method": "GET",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "frame-ancestors 'self';",
+							"otherinfo": "The directive(s): form-action is/are among the directives that do not fallback to default-src."
+						},
+						{
+							"id": "44",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fexceleratetechnologies.com%2Fwp-admin%2F",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (reauth,redirect_to)",
+							"method": "GET",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "frame-ancestors 'self';",
+							"otherinfo": "The directive(s): form-action is/are among the directives that do not fallback to default-src."
+						},
+						{
+							"id": "610",
+							"uri": "https://exceleratetechnologies.com/wp-login.php",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php ()(log,pwd,redirect_to,rememberme,testcookie,wp-submit)",
+							"method": "POST",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "frame-ancestors 'self';",
+							"otherinfo": "The directive(s): form-action is/are among the directives that do not fallback to default-src."
+						},
+						{
+							"id": "583",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?action=lostpassword",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (action)(redirect_to,user_login,wp-submit)",
+							"method": "POST",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "frame-ancestors 'self';",
+							"otherinfo": "The directive(s): form-action is/are among the directives that do not fallback to default-src."
+						}
+					],
+					"count": "5",
+					"systemic": true,
+					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.</p>",
+					"otherinfo": "<p>The directive(s): form-action is/are among the directives that do not fallback to default-src.</p>",
+					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://web.dev/articles/csp#resource-options</p>",
+					"cweid": "693",
+					"wascid": "15",
+					"sourceid": "487"
+				},
+				{
+					"pluginid": "10055",
+					"alertRef": "10055-4",
+					"alert": "CSP: Wildcard Directive",
+					"name": "CSP: Wildcard Directive",
+					"riskcode": "2",
+					"confidence": "3",
+					"riskdesc": "Medium (High)",
+					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
+					"instances":[ 
+						{
+							"id": "478",
+							"uri": "https://exceleratetechnologies.com/wp-login.php",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php",
+							"method": "GET",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "frame-ancestors 'self';",
+							"otherinfo": "The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:\nscript-src, style-src, img-src, connect-src, frame-src, font-src, media-src, object-src, manifest-src, worker-src"
+						},
+						{
+							"id": "92",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?action=lostpassword",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (action)",
+							"method": "GET",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "frame-ancestors 'self';",
+							"otherinfo": "The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:\nscript-src, style-src, img-src, connect-src, frame-src, font-src, media-src, object-src, manifest-src, worker-src"
+						},
+						{
+							"id": "47",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fexceleratetechnologies.com%2Fwp-admin%2F",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (reauth,redirect_to)",
+							"method": "GET",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "frame-ancestors 'self';",
+							"otherinfo": "The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:\nscript-src, style-src, img-src, connect-src, frame-src, font-src, media-src, object-src, manifest-src, worker-src"
+						},
+						{
+							"id": "612",
+							"uri": "https://exceleratetechnologies.com/wp-login.php",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php ()(log,pwd,redirect_to,rememberme,testcookie,wp-submit)",
+							"method": "POST",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "frame-ancestors 'self';",
+							"otherinfo": "The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:\nscript-src, style-src, img-src, connect-src, frame-src, font-src, media-src, object-src, manifest-src, worker-src"
+						},
+						{
+							"id": "584",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?action=lostpassword",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (action)(redirect_to,user_login,wp-submit)",
+							"method": "POST",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "frame-ancestors 'self';",
+							"otherinfo": "The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:\nscript-src, style-src, img-src, connect-src, frame-src, font-src, media-src, object-src, manifest-src, worker-src"
+						}
+					],
+					"count": "5",
+					"systemic": true,
+					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.</p>",
+					"otherinfo": "<p>The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:</p><p>script-src, style-src, img-src, connect-src, frame-src, font-src, media-src, object-src, manifest-src, worker-src</p>",
+					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://web.dev/articles/csp#resource-options</p>",
+					"cweid": "693",
+					"wascid": "15",
+					"sourceid": "487"
+				},
+				{
+					"pluginid": "10055",
+					"alertRef": "10055-5",
+					"alert": "CSP: script-src unsafe-inline",
+					"name": "CSP: script-src unsafe-inline",
+					"riskcode": "2",
+					"confidence": "3",
+					"riskdesc": "Medium (High)",
+					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
+					"instances":[ 
+						{
+							"id": "479",
+							"uri": "https://exceleratetechnologies.com/wp-login.php",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php",
+							"method": "GET",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "frame-ancestors 'self';",
+							"otherinfo": "script-src includes unsafe-inline."
+						},
+						{
+							"id": "93",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?action=lostpassword",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (action)",
+							"method": "GET",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "frame-ancestors 'self';",
+							"otherinfo": "script-src includes unsafe-inline."
+						},
+						{
+							"id": "49",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fexceleratetechnologies.com%2Fwp-admin%2F",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (reauth,redirect_to)",
+							"method": "GET",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "frame-ancestors 'self';",
+							"otherinfo": "script-src includes unsafe-inline."
+						},
+						{
+							"id": "613",
+							"uri": "https://exceleratetechnologies.com/wp-login.php",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php ()(log,pwd,redirect_to,rememberme,testcookie,wp-submit)",
+							"method": "POST",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "frame-ancestors 'self';",
+							"otherinfo": "script-src includes unsafe-inline."
+						},
+						{
+							"id": "586",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?action=lostpassword",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (action)(redirect_to,user_login,wp-submit)",
+							"method": "POST",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "frame-ancestors 'self';",
+							"otherinfo": "script-src includes unsafe-inline."
+						}
+					],
+					"count": "5",
+					"systemic": true,
+					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.</p>",
+					"otherinfo": "<p>script-src includes unsafe-inline.</p>",
+					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://web.dev/articles/csp#resource-options</p>",
+					"cweid": "693",
+					"wascid": "15",
+					"sourceid": "487"
+				},
+				{
+					"pluginid": "10055",
+					"alertRef": "10055-6",
+					"alert": "CSP: style-src unsafe-inline",
+					"name": "CSP: style-src unsafe-inline",
+					"riskcode": "2",
+					"confidence": "3",
+					"riskdesc": "Medium (High)",
+					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
+					"instances":[ 
+						{
+							"id": "480",
+							"uri": "https://exceleratetechnologies.com/wp-login.php",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php",
+							"method": "GET",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "frame-ancestors 'self';",
+							"otherinfo": "style-src includes unsafe-inline."
+						},
+						{
+							"id": "95",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?action=lostpassword",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (action)",
+							"method": "GET",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "frame-ancestors 'self';",
+							"otherinfo": "style-src includes unsafe-inline."
+						},
+						{
+							"id": "51",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fexceleratetechnologies.com%2Fwp-admin%2F",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (reauth,redirect_to)",
+							"method": "GET",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "frame-ancestors 'self';",
+							"otherinfo": "style-src includes unsafe-inline."
+						},
+						{
+							"id": "614",
+							"uri": "https://exceleratetechnologies.com/wp-login.php",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php ()(log,pwd,redirect_to,rememberme,testcookie,wp-submit)",
+							"method": "POST",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "frame-ancestors 'self';",
+							"otherinfo": "style-src includes unsafe-inline."
+						},
+						{
+							"id": "588",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?action=lostpassword",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (action)(redirect_to,user_login,wp-submit)",
+							"method": "POST",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "frame-ancestors 'self';",
+							"otherinfo": "style-src includes unsafe-inline."
+						}
+					],
+					"count": "5",
+					"systemic": true,
+					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.</p>",
+					"otherinfo": "<p>style-src includes unsafe-inline.</p>",
+					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://web.dev/articles/csp#resource-options</p>",
+					"cweid": "693",
+					"wascid": "15",
+					"sourceid": "487"
+				},
+				{
+					"pluginid": "10038",
+					"alertRef": "10038-1",
+					"alert": "Content Security Policy (CSP) Header Not Set",
+					"name": "Content Security Policy (CSP) Header Not Set",
+					"riskcode": "2",
+					"confidence": "3",
+					"riskdesc": "Medium (High)",
+					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
+					"instances":[ 
+						{
+							"id": "2",
+							"uri": "https://exceleratetechnologies.com/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "108",
+							"uri": "https://exceleratetechnologies.com/ai-solution/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/ai-solution\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "135",
+							"uri": "https://exceleratetechnologies.com/dsp-bpo-services/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/dsp-bpo-services\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "113",
+							"uri": "https://exceleratetechnologies.com/marketing-technologies/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/marketing-technologies\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "35",
+							"uri": "https://exceleratetechnologies.com/wp-admin/admin-ajax.php",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-admin\/admin-ajax.php",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						}
+					],
+					"count": "5",
+					"systemic": true,
+					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header.</p>",
+					"otherinfo": "",
+					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>https://www.w3.org/TR/CSP/</p><p>https://w3c.github.io/webappsec-csp/</p><p>https://web.dev/articles/csp</p><p>https://caniuse.com/#feat=contentsecuritypolicy</p><p>https://content-security-policy.com/</p>",
+					"cweid": "693",
+					"wascid": "15",
+					"sourceid": "1"
+				},
+				{
+					"pluginid": "10020",
+					"alertRef": "10020-1",
+					"alert": "Missing Anti-clickjacking Header",
+					"name": "Missing Anti-clickjacking Header",
+					"riskcode": "2",
+					"confidence": "2",
+					"riskdesc": "Medium (Medium)",
+					"desc": "<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>",
+					"instances":[ 
+						{
+							"id": "0",
+							"uri": "https://exceleratetechnologies.com/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/",
+							"method": "GET",
+							"param": "x-frame-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "99",
+							"uri": "https://exceleratetechnologies.com/ai-solution/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/ai-solution\/",
+							"method": "GET",
+							"param": "x-frame-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "117",
+							"uri": "https://exceleratetechnologies.com/dsp-bpo-services/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/dsp-bpo-services\/",
+							"method": "GET",
+							"param": "x-frame-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "154",
+							"uri": "https://exceleratetechnologies.com/it-services/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/it-services\/",
+							"method": "GET",
+							"param": "x-frame-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "105",
+							"uri": "https://exceleratetechnologies.com/marketing-technologies/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/marketing-technologies\/",
+							"method": "GET",
+							"param": "x-frame-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						}
+					],
+					"count": "5",
+					"systemic": true,
+					"solution": "<p>Modern Web browsers support the Content-Security-Policy and X-Frame-Options HTTP headers. Ensure one of them is set on all web pages returned by your site/app.</p><p>If you expect the page to be framed only by pages on your server (e.g. it's part of a FRAMESET) then you'll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY. Alternatively consider implementing Content Security Policy's \"frame-ancestors\" directive.</p>",
+					"otherinfo": "",
+					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/X-Frame-Options</p>",
+					"cweid": "1021",
+					"wascid": "15",
+					"sourceid": "1"
+				},
+				{
+					"pluginid": "90003",
+					"alertRef": "90003",
+					"alert": "Sub Resource Integrity Attribute Missing",
+					"name": "Sub Resource Integrity Attribute Missing",
+					"riskcode": "2",
+					"confidence": "3",
+					"riskdesc": "Medium (High)",
+					"desc": "<p>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content.</p>",
+					"instances":[ 
+						{
+							"id": "15",
+							"uri": "https://exceleratetechnologies.com/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<link rel='stylesheet' id='elementor-gf-poppins-css' href='https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&#038;display=swap' media='all' />",
+							"otherinfo": ""
+						},
+						{
+							"id": "16",
+							"uri": "https://exceleratetechnologies.com/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<link rel='stylesheet' id='elementor-gf-robotoslab-css' href='https://fonts.googleapis.com/css?family=Roboto+Slab:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&#038;display=swap' media='all' />",
+							"otherinfo": ""
+						},
+						{
+							"id": "17",
+							"uri": "https://exceleratetechnologies.com/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script src=\"https://www.googletagmanager.com/gtag/js?id=GT-TQS6SGG6\" id=\"google_gtagjs-js\" async></script>",
+							"otherinfo": ""
+						},
+						{
+							"id": "18",
+							"uri": "https://exceleratetechnologies.com/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script src='https://img1.wsimg.com/traffic-assets/js/tccl.min.js'></script>",
+							"otherinfo": ""
+						},
+						{
+							"id": "72",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fexceleratetechnologies.com%2Fwp-admin%2F",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (reauth,redirect_to)",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script src='https://img1.wsimg.com/traffic-assets/js/tccl.min.js'></script>",
+							"otherinfo": ""
+						}
+					],
+					"count": "5",
+					"systemic": true,
+					"solution": "<p>Provide a valid integrity attribute to the tag.</p>",
+					"otherinfo": "",
+					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</p>",
+					"cweid": "345",
+					"wascid": "15",
+					"sourceid": "1"
+				},
+				{
+					"pluginid": "10054",
+					"alertRef": "10054-1",
+					"alert": "Cookie without SameSite Attribute",
+					"name": "Cookie without SameSite Attribute",
+					"riskcode": "1",
+					"confidence": "2",
+					"riskdesc": "Low (Medium)",
+					"desc": "<p>A cookie has been set without the SameSite attribute, which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>",
+					"instances":[ 
+						{
+							"id": "481",
+							"uri": "https://exceleratetechnologies.com/wp-login.php",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php",
+							"method": "GET",
+							"param": "wordpress_test_cookie",
+							"attack": "",
+							"evidence": "Set-Cookie: wordpress_test_cookie",
+							"otherinfo": ""
+						},
+						{
+							"id": "96",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?action=lostpassword",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (action)",
+							"method": "GET",
+							"param": "wordpress_test_cookie",
+							"attack": "",
+							"evidence": "Set-Cookie: wordpress_test_cookie",
+							"otherinfo": ""
+						},
+						{
+							"id": "59",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fexceleratetechnologies.com%2Fwp-admin%2F",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (reauth,redirect_to)",
+							"method": "GET",
+							"param": "wordpress_test_cookie",
+							"attack": "",
+							"evidence": "Set-Cookie: wordpress_test_cookie",
+							"otherinfo": ""
+						},
+						{
+							"id": "615",
+							"uri": "https://exceleratetechnologies.com/wp-login.php",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php ()(log,pwd,redirect_to,rememberme,testcookie,wp-submit)",
+							"method": "POST",
+							"param": "wordpress_test_cookie",
+							"attack": "",
+							"evidence": "Set-Cookie: wordpress_test_cookie",
+							"otherinfo": ""
+						},
+						{
+							"id": "589",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?action=lostpassword",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (action)(redirect_to,user_login,wp-submit)",
+							"method": "POST",
+							"param": "wordpress_test_cookie",
+							"attack": "",
+							"evidence": "Set-Cookie: wordpress_test_cookie",
+							"otherinfo": ""
+						}
+					],
+					"count": "5",
+					"systemic": true,
+					"solution": "<p>Ensure that the SameSite attribute is set to either 'lax' or ideally 'strict' for all cookies.</p>",
+					"otherinfo": "",
+					"reference": "<p>https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-cookie-same-site</p>",
+					"cweid": "1275",
+					"wascid": "13",
+					"sourceid": "487"
+				},
+				{
+					"pluginid": "10017",
+					"alertRef": "10017",
+					"alert": "Cross-Domain JavaScript Source File Inclusion",
+					"name": "Cross-Domain JavaScript Source File Inclusion",
+					"riskcode": "1",
+					"confidence": "2",
+					"riskdesc": "Low (Medium)",
+					"desc": "<p>The page includes one or more script files from a third-party domain.</p>",
+					"instances":[ 
+						{
+							"id": "4",
+							"uri": "https://exceleratetechnologies.com/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/",
+							"method": "GET",
+							"param": "https://img1.wsimg.com/traffic-assets/js/tccl.min.js",
+							"attack": "",
+							"evidence": "<script src='https://img1.wsimg.com/traffic-assets/js/tccl.min.js'></script>",
+							"otherinfo": ""
+						},
+						{
+							"id": "3",
+							"uri": "https://exceleratetechnologies.com/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/",
+							"method": "GET",
+							"param": "https://www.googletagmanager.com/gtag/js?id=GT-TQS6SGG6",
+							"attack": "",
+							"evidence": "<script src=\"https://www.googletagmanager.com/gtag/js?id=GT-TQS6SGG6\" id=\"google_gtagjs-js\" async></script>",
+							"otherinfo": ""
+						},
+						{
+							"id": "109",
+							"uri": "https://exceleratetechnologies.com/ai-solution/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/ai-solution\/",
+							"method": "GET",
+							"param": "https://www.googletagmanager.com/gtag/js?id=GT-TQS6SGG6",
+							"attack": "",
+							"evidence": "<script src=\"https://www.googletagmanager.com/gtag/js?id=GT-TQS6SGG6\" id=\"google_gtagjs-js\" async></script>",
+							"otherinfo": ""
+						},
+						{
+							"id": "97",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?action=lostpassword",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (action)",
+							"method": "GET",
+							"param": "https://img1.wsimg.com/traffic-assets/js/tccl.min.js",
+							"attack": "",
+							"evidence": "<script src='https://img1.wsimg.com/traffic-assets/js/tccl.min.js'></script>",
+							"otherinfo": ""
+						},
+						{
+							"id": "61",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fexceleratetechnologies.com%2Fwp-admin%2F",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (reauth,redirect_to)",
+							"method": "GET",
+							"param": "https://img1.wsimg.com/traffic-assets/js/tccl.min.js",
+							"attack": "",
+							"evidence": "<script src='https://img1.wsimg.com/traffic-assets/js/tccl.min.js'></script>",
+							"otherinfo": ""
+						}
+					],
+					"count": "5",
+					"systemic": true,
+					"solution": "<p>Ensure JavaScript source files are loaded from only trusted sources, and the sources can't be controlled by end users of the application.</p>",
+					"otherinfo": "",
+					"reference": "",
+					"cweid": "829",
+					"wascid": "15",
+					"sourceid": "1"
+				},
+				{
+					"pluginid": "10037",
+					"alertRef": "10037",
+					"alert": "Server Leaks Information via \"X-Powered-By\" HTTP Response Header Field(s)",
+					"name": "Server Leaks Information via \"X-Powered-By\" HTTP Response Header Field(s)",
+					"riskcode": "1",
+					"confidence": "2",
+					"riskdesc": "Low (Medium)",
+					"desc": "<p>The web/application server is leaking information via one or more \"X-Powered-By\" HTTP response headers. Access to such information may facilitate attackers identifying other frameworks/components your web application is reliant upon and the vulnerabilities such components may be subject to.</p>",
+					"instances":[ 
+						{
+							"id": "26",
+							"uri": "https://exceleratetechnologies.com/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "X-Powered-By: PHP/8.4.14",
+							"otherinfo": ""
+						},
+						{
+							"id": "13",
+							"uri": "https://exceleratetechnologies.com/robots.txt",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/robots.txt",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "X-Powered-By: PHP/8.4.14",
+							"otherinfo": ""
+						},
+						{
+							"id": "9",
+							"uri": "https://exceleratetechnologies.com/sitemap.xml",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/sitemap.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "X-Powered-By: PHP/8.4.14",
+							"otherinfo": ""
+						},
+						{
+							"id": "10",
+							"uri": "https://exceleratetechnologies.com/wp-admin/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-admin\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "X-Powered-By: PHP/8.4.14",
+							"otherinfo": ""
+						},
+						{
+							"id": "42",
+							"uri": "https://exceleratetechnologies.com/wp-admin/admin-ajax.php",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-admin\/admin-ajax.php",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "X-Powered-By: PHP/8.4.14",
+							"otherinfo": ""
+						}
+					],
+					"count": "5",
+					"systemic": true,
+					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to suppress \"X-Powered-By\" headers.</p>",
+					"otherinfo": "",
+					"reference": "<p>https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework</p><p>https://www.troyhunt.com/shhh-dont-let-your-response-headers/</p>",
+					"cweid": "497",
+					"wascid": "13",
+					"sourceid": "1"
+				},
+				{
+					"pluginid": "10035",
+					"alertRef": "10035-1",
+					"alert": "Strict-Transport-Security Header Not Set",
+					"name": "Strict-Transport-Security Header Not Set",
+					"riskcode": "1",
+					"confidence": "3",
+					"riskdesc": "Low (High)",
+					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
+					"instances":[ 
+						{
+							"id": "14",
+							"uri": "https://exceleratetechnologies.com/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "11",
+							"uri": "https://exceleratetechnologies.com/robots.txt",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/robots.txt",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "38",
+							"uri": "https://exceleratetechnologies.com/wp-admin/admin-ajax.php",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-admin\/admin-ajax.php",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "53",
+							"uri": "https://exceleratetechnologies.com/wp-sitemap-index.xsl",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-sitemap-index.xsl",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "34",
+							"uri": "https://exceleratetechnologies.com/wp-sitemap.xml",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-sitemap.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						}
+					],
+					"count": "5",
+					"systemic": true,
+					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to enforce Strict-Transport-Security.</p>",
+					"otherinfo": "",
+					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</p><p>https://owasp.org/www-community/Security_Headers</p><p>https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</p><p>https://caniuse.com/stricttransportsecurity</p><p>https://datatracker.ietf.org/doc/html/rfc6797</p>",
+					"cweid": "319",
+					"wascid": "15",
+					"sourceid": "1"
+				},
+				{
+					"pluginid": "10096",
+					"alertRef": "10096",
+					"alert": "Timestamp Disclosure - Unix",
+					"name": "Timestamp Disclosure - Unix",
+					"riskcode": "1",
+					"confidence": "1",
+					"riskdesc": "Low (Low)",
+					"desc": "<p>A timestamp was disclosed by the application/web server. - Unix</p>",
+					"instances":[ 
+						{
+							"id": "19",
+							"uri": "https://exceleratetechnologies.com/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1766116925",
+							"otherinfo": "1766116925, which evaluates to: 2025-12-19 04:02:05."
+						},
+						{
+							"id": "20",
+							"uri": "https://exceleratetechnologies.com/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1767401441",
+							"otherinfo": "1767401441, which evaluates to: 2026-01-03 00:50:41."
+						},
+						{
+							"id": "22",
+							"uri": "https://exceleratetechnologies.com/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1767401442",
+							"otherinfo": "1767401442, which evaluates to: 2026-01-03 00:50:42."
+						},
+						{
+							"id": "21",
+							"uri": "https://exceleratetechnologies.com/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1767404552",
+							"otherinfo": "1767404552, which evaluates to: 2026-01-03 01:42:32."
+						},
+						{
+							"id": "128",
+							"uri": "https://exceleratetechnologies.com/ai-solution/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/ai-solution\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1765332020",
+							"otherinfo": "1765332020, which evaluates to: 2025-12-10 02:00:20."
+						}
+					],
+					"count": "5",
+					"systemic": true,
+					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
+					"otherinfo": "<p>1766116925, which evaluates to: 2025-12-19 04:02:05.</p>",
+					"reference": "<p>https://cwe.mitre.org/data/definitions/200.html</p>",
+					"cweid": "497",
+					"wascid": "13",
+					"sourceid": "1"
+				},
+				{
+					"pluginid": "10021",
+					"alertRef": "10021",
+					"alert": "X-Content-Type-Options Header Missing",
+					"name": "X-Content-Type-Options Header Missing",
+					"riskcode": "1",
+					"confidence": "2",
+					"riskdesc": "Low (Medium)",
+					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
+					"instances":[ 
+						{
+							"id": "25",
+							"uri": "https://exceleratetechnologies.com/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/",
+							"method": "GET",
+							"param": "x-content-type-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
+						},
+						{
+							"id": "12",
+							"uri": "https://exceleratetechnologies.com/robots.txt",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/robots.txt",
+							"method": "GET",
+							"param": "x-content-type-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
+						},
+						{
+							"id": "55",
+							"uri": "https://exceleratetechnologies.com/wp-sitemap-index.xsl",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-sitemap-index.xsl",
+							"method": "GET",
+							"param": "x-content-type-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
+						},
+						{
+							"id": "75",
+							"uri": "https://exceleratetechnologies.com/wp-sitemap-posts-post-1.xml",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-sitemap-posts-post-1.xml",
+							"method": "GET",
+							"param": "x-content-type-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
+						},
+						{
+							"id": "36",
+							"uri": "https://exceleratetechnologies.com/wp-sitemap.xml",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-sitemap.xml",
+							"method": "GET",
+							"param": "x-content-type-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
+						}
+					],
+					"count": "5",
+					"systemic": true,
+					"solution": "<p>Ensure that the application/web server sets the Content-Type header appropriately, and that it sets the X-Content-Type-Options header to 'nosniff' for all web pages.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that does not perform MIME-sniffing at all, or that can be directed by the web application/web server to not perform MIME-sniffing.</p>",
+					"otherinfo": "<p>This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.</p><p>At \"High\" threshold this scan rule will not alert on client or server error responses.</p>",
+					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p><p>https://owasp.org/www-community/Security_Headers</p>",
+					"cweid": "693",
+					"wascid": "15",
+					"sourceid": "1"
+				},
+				{
+					"pluginid": "90011",
+					"alertRef": "90011-4",
+					"alert": "Charset Mismatch",
+					"name": "Charset Mismatch",
+					"riskcode": "0",
+					"confidence": "1",
+					"riskdesc": "Informational (Low)",
+					"desc": "<p>This check identifies responses where the HTTP Content-Type header declares a charset different from the charset defined by the body of the HTML or XML. When there's a charset mismatch between the HTTP header and content body Web browsers can be forced into an undesirable content-sniffing mode to determine the content's correct character set.</p><p></p><p>An attacker could manipulate content on the page to be interpreted in an encoding of their choice. For example, if an attacker can control content at the beginning of the page, they could inject script using UTF-7 encoded text and manipulate some browsers into interpreting that text.</p>",
+					"instances":[ 
+						{
+							"id": "524",
+							"uri": "https://exceleratetechnologies.com/wp-json/oembed/1.0/embed?format=xml&url=https%3A%2F%2Fexceleratetechnologies.com%2F",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-json\/oembed\/1.0\/embed (format,url)",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "There was a charset mismatch between the HTTP Header and the XML encoding declaration: [UTF-8] and [null] do not match."
+						}
+					],
+					"count": "1",
+					"systemic": true,
+					"solution": "<p>Force UTF-8 for all text content in both the HTTP header and meta tags in HTML or encoding declarations in XML.</p>",
+					"otherinfo": "<p>There was a charset mismatch between the HTTP Header and the XML encoding declaration: [UTF-8] and [null] do not match.</p>",
+					"reference": "<p>https://code.google.com/archive/p/browsersec/wikis/Part2.wiki#Character_set_handling_and_detection</p>",
+					"cweid": "436",
+					"wascid": "15",
+					"sourceid": "513"
+				},
+				{
+					"pluginid": "10027",
+					"alertRef": "10027",
+					"alert": "Information Disclosure - Suspicious Comments",
+					"name": "Information Disclosure - Suspicious Comments",
+					"riskcode": "0",
+					"confidence": "1",
+					"riskdesc": "Informational (Low)",
+					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
+					"instances":[ 
+						{
+							"id": "6",
+							"uri": "https://exceleratetechnologies.com/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "2049",
+							"uri": "https://exceleratetechnologies.com/?e_search_props=1373a75-5614&s",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/ (e_search_props,s)",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1909",
+							"uri": "https://exceleratetechnologies.com/?s",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/ (s)",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "2087",
+							"uri": "https://exceleratetechnologies.com/2023/05/01/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/2023\/05\/01\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1914",
+							"uri": "https://exceleratetechnologies.com/2023/05/28/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/2023\/05\/28\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1928",
+							"uri": "https://exceleratetechnologies.com/2023/06/15/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/2023\/06\/15\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1853",
+							"uri": "https://exceleratetechnologies.com/2023/06/29/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/2023\/06\/29\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "2121",
+							"uri": "https://exceleratetechnologies.com/2023/07/30/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/2023\/07\/30\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "2104",
+							"uri": "https://exceleratetechnologies.com/2023/10/20/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/2023\/10\/20\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "2201",
+							"uri": "https://exceleratetechnologies.com/2023/10/30/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/2023\/10\/30\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "2268",
+							"uri": "https://exceleratetechnologies.com/2025/03/16/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/2025\/03\/16\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "2335",
+							"uri": "https://exceleratetechnologies.com/2025/04/14/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/2025\/04\/14\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "2401",
+							"uri": "https://exceleratetechnologies.com/2025/07/23/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/2025\/07\/23\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "665",
+							"uri": "https://exceleratetechnologies.com/4580-2/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/4580-2\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "195",
+							"uri": "https://exceleratetechnologies.com/about-us/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/about-us\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "388",
+							"uri": "https://exceleratetechnologies.com/adopting-the-right-mindset-for-ai/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/adopting-the-right-mindset-for-ai\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "305",
+							"uri": "https://exceleratetechnologies.com/ai-based-solution",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/ai-based-solution",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "504",
+							"uri": "https://exceleratetechnologies.com/ai-for-good-principles-to-use-ai-responsibly/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/ai-for-good-principles-to-use-ai-responsibly\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "115",
+							"uri": "https://exceleratetechnologies.com/ai-solution/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/ai-solution\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "394",
+							"uri": "https://exceleratetechnologies.com/artificial-intelligence-is-everywhere/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/artificial-intelligence-is-everywhere\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1562",
+							"uri": "https://exceleratetechnologies.com/author/boldthemes/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/author\/boldthemes\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1643",
+							"uri": "https://exceleratetechnologies.com/author/jahanavee/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/author\/jahanavee\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1609",
+							"uri": "https://exceleratetechnologies.com/author/prakash-sahwmudishtech-com/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/author\/prakash-sahwmudishtech-com\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1582",
+							"uri": "https://exceleratetechnologies.com/author/prakash/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/author\/prakash\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1631",
+							"uri": "https://exceleratetechnologies.com/author/udaya/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/author\/udaya\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "290",
+							"uri": "https://exceleratetechnologies.com/blog/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/blog\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "568",
+							"uri": "https://exceleratetechnologies.com/bpo-services/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/bpo-services\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "712",
+							"uri": "https://exceleratetechnologies.com/can-we-use-ai-bots-for-sales-lead-generation-in-b2b-businesses/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/can-we-use-ai-bots-for-sales-lead-generation-in-b2b-businesses\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1428",
+							"uri": "https://exceleratetechnologies.com/category/ai/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/category\/ai\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1411",
+							"uri": "https://exceleratetechnologies.com/category/artificial/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/category\/artificial\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1504",
+							"uri": "https://exceleratetechnologies.com/category/automation/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/category\/automation\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1463",
+							"uri": "https://exceleratetechnologies.com/category/business/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/category\/business\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1435",
+							"uri": "https://exceleratetechnologies.com/category/digital/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/category\/digital\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1497",
+							"uri": "https://exceleratetechnologies.com/category/solutions/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/category\/solutions\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1880",
+							"uri": "https://exceleratetechnologies.com/category/uncategorized/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/category\/uncategorized\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "934",
+							"uri": "https://exceleratetechnologies.com/comexcel/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/comexcel\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "224",
+							"uri": "https://exceleratetechnologies.com/contact-us/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/contact-us\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "389",
+							"uri": "https://exceleratetechnologies.com/cookies-settings/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/cookies-settings\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "361",
+							"uri": "https://exceleratetechnologies.com/delivering-ai-strategies-for-business-success/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/delivering-ai-strategies-for-business-success\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "183",
+							"uri": "https://exceleratetechnologies.com/digital-operations/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/digital-operations\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "714",
+							"uri": "https://exceleratetechnologies.com/driver-performance-management/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/driver-performance-management\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "964",
+							"uri": "https://exceleratetechnologies.com/drivexcel/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/drivexcel\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "155",
+							"uri": "https://exceleratetechnologies.com/dsp-bpo-services/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/dsp-bpo-services\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "829",
+							"uri": "https://exceleratetechnologies.com/excellence-accelerated-with-conversational-ai/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/excellence-accelerated-with-conversational-ai\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "752",
+							"uri": "https://exceleratetechnologies.com/fleet-management/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/fleet-management\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "650",
+							"uri": "https://exceleratetechnologies.com/generative-engine-optimization/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/generative-engine-optimization\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "648",
+							"uri": "https://exceleratetechnologies.com/hiring-onboarding-solution/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/hiring-onboarding-solution\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "991",
+							"uri": "https://exceleratetechnologies.com/immiexcel/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/immiexcel\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "436",
+							"uri": "https://exceleratetechnologies.com/is-your-automation-program-ready-for-ai/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/is-your-automation-program-ready-for-ai\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "184",
+							"uri": "https://exceleratetechnologies.com/it-services/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/it-services\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "126",
+							"uri": "https://exceleratetechnologies.com/marketing-technologies/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/marketing-technologies\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1393",
+							"uri": "https://exceleratetechnologies.com/metform-form/conversational-ai/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/metform-form\/conversational-ai\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "3226",
+							"uri": "https://exceleratetechnologies.com/metform-form/conversational-ai/embed/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/metform-form\/conversational-ai\/embed\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "3004",
+							"uri": "https://exceleratetechnologies.com/page/2/?s",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/page\/2\/ (s)",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "3243",
+							"uri": "https://exceleratetechnologies.com/page/3/?s",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/page\/3\/ (s)",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "2984",
+							"uri": "https://exceleratetechnologies.com/page/4/?s",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/page\/4\/ (s)",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "795",
+							"uri": "https://exceleratetechnologies.com/payroll-support-and-accounting/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/payroll-support-and-accounting\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "307",
+							"uri": "https://exceleratetechnologies.com/privacy-policy/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/privacy-policy\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "750",
+							"uri": "https://exceleratetechnologies.com/rts-checkout/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/rts-checkout\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "3214",
+							"uri": "https://exceleratetechnologies.com/search/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/search\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1665",
+							"uri": "https://exceleratetechnologies.com/tag/ai/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/tag\/ai\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1775",
+							"uri": "https://exceleratetechnologies.com/tag/automation/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/tag\/automation\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1721",
+							"uri": "https://exceleratetechnologies.com/tag/digital/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/tag\/digital\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1725",
+							"uri": "https://exceleratetechnologies.com/tag/solutions/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/tag\/solutions\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "854",
+							"uri": "https://exceleratetechnologies.com/team-member/pavan/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/team-member\/pavan\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "783",
+							"uri": "https://exceleratetechnologies.com/team-member/sameer/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/team-member\/sameer\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "901",
+							"uri": "https://exceleratetechnologies.com/team-member/sarita/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/team-member\/sarita\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "872",
+							"uri": "https://exceleratetechnologies.com/team-member/shantanu/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/team-member\/shantanu\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "331",
+							"uri": "https://exceleratetechnologies.com/terms-of-service/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/terms-of-service\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "547",
+							"uri": "https://exceleratetechnologies.com/the-top-19-ai-tools-for-marketers/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/the-top-19-ai-tools-for-marketers\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "505",
+							"uri": "https://exceleratetechnologies.com/turning-ais-potential-into-real-results/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/turning-ais-potential-into-real-results\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1479",
+							"uri": "https://exceleratetechnologies.com/type/audio/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/type\/audio\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1661",
+							"uri": "https://exceleratetechnologies.com/type/gallery/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/type\/gallery\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1814",
+							"uri": "https://exceleratetechnologies.com/type/image/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/type\/image\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1560",
+							"uri": "https://exceleratetechnologies.com/type/link/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/type\/link\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1534",
+							"uri": "https://exceleratetechnologies.com/type/quote/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/type\/quote\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "544",
+							"uri": "https://exceleratetechnologies.com/wp-admin/js/user-profile.min.js?ver=6.9",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-admin\/js\/user-profile.min.js (ver)",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected in likely comment: \"//www.w3.org/2000/svg\" fill=\"#3c434a\" stroke=\"#3c434a\" stroke-width=\"0.5\"><path d=\"M12 5L19 15H16V19H8V15H5L12 5Z\"/><rect x=\"8\" \", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1094",
+							"uri": "https://exceleratetechnologies.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.33.2",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-content\/plugins\/elementor-pro\/assets\/js\/elements-handlers.min.js (ver)",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "user",
+							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in likely comment: \"//www.w3.org/2000/svg\",\"svg\"),IconsManager.symbolsContainer.setAttributeNS(null,\"style\",\"display: none;\"),IconsManager.symbolsCo\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1057",
+							"uri": "https://exceleratetechnologies.com/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-content\/plugins\/elementor-pro\/assets\/lib\/smartmenus\/jquery.smartmenus.min.js (ver)",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "select",
+							"otherinfo": "The following pattern was used: \\bSELECT\\b and was detected in likely comment: \"//vadikom.com; Licensed MIT */!function(a){\"function\"==typeof define&&define.amd?define([\"jquery\"],a):\"object\"==typeof module&&\"\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1051",
+							"uri": "https://exceleratetechnologies.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.34.0",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-content\/plugins\/elementor\/assets\/js\/frontend-modules.min.js (ver)",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "query",
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in likely comment: \"//github.com/zloirock/core-js/blob/v3.46.0/LICENSE\",source:\"https://github.com/zloirock/core-js\"})},1851:(e,t,r)=>{\"use strict\";\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1064",
+							"uri": "https://exceleratetechnologies.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.34.0",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-content\/plugins\/elementor\/assets\/js\/frontend.min.js (ver)",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "user",
+							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in likely comment: \"//player.vimeo.com/api/player.js\"}getURLRegex(){return/^(?:https?:\\/\\/)?(?:www|player\\.)?(?:vimeo\\.com\\/)?(?:video\\/|external\\/)\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "2861",
+							"uri": "https://exceleratetechnologies.com/wp-content/plugins/metform/public/assets/js/app.js?ver=4.1.0",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-content\/plugins\/metform\/public\/assets\/js\/app.js (ver)",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "query",
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in likely comment: \"//www.youtube.com/embed/\"+t[2]+\"?showinfo=0\":(t=e.match(/^(?:(https?):\\/\\/)?(?:www\\.)?vimeo\\.com\\/(\\d+)/))?(t[1]||\"https\")+\"://p\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1103",
+							"uri": "https://exceleratetechnologies.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.7.1043",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-content\/plugins\/royal-elementor-addons\/assets\/js\/frontend.min.js (ver)",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected in likely comment: \"//connect.facebook.net/en_US/sdk.js\",i.parentNode.insertBefore(r,i))}(document,\"script\",\"facebook-jssdk\")},widgetFlipCarousel:fu\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1069",
+							"uri": "https://exceleratetechnologies.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/dompurify/dompurify.min.js?ver=3.0.6",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-content\/plugins\/royal-elementor-addons\/assets\/js\/lib\/dompurify\/dompurify.min.js (ver)",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "user",
+							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in likely comment: \"//www.w3.org/1998/Math/MathML\",tt=\"http://www.w3.org/2000/svg\",nt=\"http://www.w3.org/1999/xhtml\";let ot=nt,rt=!1,it=null;const a\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1122",
+							"uri": "https://exceleratetechnologies.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/tableToExcel/tableToExcel.js",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-content\/plugins\/royal-elementor-addons\/assets\/js\/lib\/tableToExcel\/tableToExcel.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "from",
+							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"//momentjs.com/guides/#/warnings/define-locale/ for more info.\"),s=rt[e]._config;else if(null!=t.parentLocale)if(null!=rt[t.pare\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1085",
+							"uri": "https://exceleratetechnologies.com/wp-content/plugins/royal-elementor-addons/assets/js/modal-popups.min.js?ver=1.7.1043",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-content\/plugins\/royal-elementor-addons\/assets\/js\/modal-popups.min.js (ver)",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "User",
+							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in likely comment: \"// User Inactivity\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1026",
+							"uri": "https://exceleratetechnologies.com/wp-content/plugins/wp-social/assets/js/front-main.js?ver=3.1.5",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-content\/plugins\/wp-social\/assets\/js\/front-main.js (ver)",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "user",
+							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in likely comment: \"//www.instagram.com/\"+e+\"/?__a=1\",(function(t){console.log(t.graphql.user.edge_followed_by),console.log(t);var s=0;t.graphql.use\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "2776",
+							"uri": "https://exceleratetechnologies.com/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-includes\/js\/dist\/vendor\/react-dom.min.js (ver)",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "select",
+							"otherinfo": "The following pattern was used: \\bSELECT\\b and was detected in likely comment: \"//reactjs.org/docs/error-decoder.html?invariant=\"+e,t=1;t<arguments.length;t++)n+=\"&args[]=\"+encodeURIComponent(arguments[t]);re\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "466",
+							"uri": "https://exceleratetechnologies.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-includes\/js\/jquery\/jquery.min.js (ver)",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "username",
+							"otherinfo": "The following pattern was used: \\bUSERNAME\\b and was detected in likely comment: \"//,Bt={},_t={},zt=\"*/\".concat(\"*\"),Xt=C.createElement(\"a\");function Ut(o){return function(e,t){\"string\"!=typeof e&&(t=e,e=\"*\");v\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "485",
+							"uri": "https://exceleratetechnologies.com/wp-login.php",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/js/password-strength-meter.min.js?ver=6.9\" id=\"password-strength-meter-js\"></script>\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "486",
+							"uri": "https://exceleratetechnologies.com/wp-login.php",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "user",
+							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in likely comment: \"//# sourceURL=user-profile-js-extra\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "66",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fexceleratetechnologies.com%2Fwp-admin%2F",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (reauth,redirect_to)",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/js/password-strength-meter.min.js?ver=6.9\" id=\"password-strength-meter-js\"></script>\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "68",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fexceleratetechnologies.com%2Fwp-admin%2F",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (reauth,redirect_to)",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "user",
+							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in likely comment: \"//# sourceURL=user-profile-js-extra\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "1327",
+							"uri": "https://exceleratetechnologies.com/contact-us/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/contact-us\/ ()(form_fields[email],form_fields[field_38af2e1],form_fields[field_d180781],form_fields[field_e02732f],form_fields[message],form_fields[name],form_id,post_id,queried_id,referer_title)",
+							"method": "POST",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "618",
+							"uri": "https://exceleratetechnologies.com/wp-login.php",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php ()(log,pwd,redirect_to,rememberme,testcookie,wp-submit)",
+							"method": "POST",
+							"param": "",
+							"attack": "",
+							"evidence": "admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/js/password-strength-meter.min.js?ver=6.9\" id=\"password-strength-meter-js\"></script>\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "619",
+							"uri": "https://exceleratetechnologies.com/wp-login.php",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php ()(log,pwd,redirect_to,rememberme,testcookie,wp-submit)",
+							"method": "POST",
+							"param": "",
+							"attack": "",
+							"evidence": "user",
+							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in likely comment: \"//# sourceURL=user-profile-js-extra\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "5",
+							"uri": "https://exceleratetechnologies.com/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "later",
+							"otherinfo": "The following pattern was used: \\bLATER\\b and was detected in likely comment: \"<!-- This div is important! It lets us specify margin-left later on. -->\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "67",
+							"uri": "https://exceleratetechnologies.com/wp-json/wp/v2/pages/9",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-json\/wp\/v2\/pages\/9",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "later",
+							"otherinfo": "The following pattern was used: \\bLATER\\b and was detected in likely comment: \"<!-- This div is important! It lets us specify margin-left later on. -->\", see evidence field for the suspicious comment/snippet."
+						}
+					],
+					"count": "98",
+					"systemic": false,
+					"solution": "<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>",
+					"otherinfo": "<p>The following pattern was used: \\bADMIN\\b and was detected 2 times, the first in likely comment: \"//exceleratetechnologies.com/wp-admin/admin-ajax.php\",\"nonce\":\"247f7b0cae\"};\", see evidence field for the suspicious comment/snippet.</p>",
+					"reference": "",
+					"cweid": "615",
+					"wascid": "13",
+					"sourceid": "1"
+				},
+				{
+					"pluginid": "10109",
+					"alertRef": "10109",
+					"alert": "Modern Web Application",
+					"name": "Modern Web Application",
+					"riskcode": "0",
+					"confidence": "2",
+					"riskdesc": "Informational (Medium)",
+					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
+					"instances":[ 
+						{
+							"id": "7",
+							"uri": "https://exceleratetechnologies.com/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a aria-expanded=\"false\" href=\"#\" class=\"menu-link premium-menu-link premium-menu-link-parent premium-lq__none\">Others<span role=\"application\" class=\"dropdown-menu-toggle ast-header-navigation-arrow\" tabindex=\"0\" aria-expanded=\"false\" aria-label=\"Menu Toggle\" aria-haspopup=\"true\"></span><i class=\"fas fa-angle-down premium-dropdown-icon\"></i></a>",
+							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
+						},
+						{
+							"id": "118",
+							"uri": "https://exceleratetechnologies.com/ai-solution/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/ai-solution\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a aria-expanded=\"false\" href=\"#\" class=\"menu-link premium-menu-link premium-menu-link-parent premium-lq__none\">Others<span role=\"application\" class=\"dropdown-menu-toggle ast-header-navigation-arrow\" tabindex=\"0\" aria-expanded=\"false\" aria-label=\"Menu Toggle\" aria-haspopup=\"true\"></span><i class=\"fas fa-angle-down premium-dropdown-icon\"></i></a>",
+							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
+						},
+						{
+							"id": "156",
+							"uri": "https://exceleratetechnologies.com/dsp-bpo-services/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/dsp-bpo-services\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a aria-expanded=\"false\" href=\"#\" class=\"menu-link premium-menu-link premium-menu-link-parent premium-lq__none\">Others<span role=\"application\" class=\"dropdown-menu-toggle ast-header-navigation-arrow\" tabindex=\"0\" aria-expanded=\"false\" aria-label=\"Menu Toggle\" aria-haspopup=\"true\"></span><i class=\"fas fa-angle-down premium-dropdown-icon\"></i></a>",
+							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
+						},
+						{
+							"id": "186",
+							"uri": "https://exceleratetechnologies.com/it-services/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/it-services\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a aria-expanded=\"false\" href=\"#\" class=\"menu-link premium-menu-link premium-menu-link-parent premium-lq__none\">Others<span role=\"application\" class=\"dropdown-menu-toggle ast-header-navigation-arrow\" tabindex=\"0\" aria-expanded=\"false\" aria-label=\"Menu Toggle\" aria-haspopup=\"true\"></span><i class=\"fas fa-angle-down premium-dropdown-icon\"></i></a>",
+							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
+						},
+						{
+							"id": "130",
+							"uri": "https://exceleratetechnologies.com/marketing-technologies/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/marketing-technologies\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a aria-expanded=\"false\" href=\"#\" class=\"menu-link premium-menu-link premium-menu-link-parent premium-lq__none\">Others<span role=\"application\" class=\"dropdown-menu-toggle ast-header-navigation-arrow\" tabindex=\"0\" aria-expanded=\"false\" aria-label=\"Menu Toggle\" aria-haspopup=\"true\"></span><i class=\"fas fa-angle-down premium-dropdown-icon\"></i></a>",
+							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
+						}
+					],
+					"count": "5",
+					"systemic": true,
+					"solution": "<p>This is an informational alert and so no changes are required.</p>",
+					"otherinfo": "<p>Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.</p>",
+					"reference": "",
+					"cweid": "-1",
+					"wascid": "-1",
+					"sourceid": "1"
+				},
+				{
+					"pluginid": "10015",
+					"alertRef": "10015",
+					"alert": "Re-examine Cache-control Directives",
+					"name": "Re-examine Cache-control Directives",
+					"riskcode": "0",
+					"confidence": "1",
+					"riskdesc": "Informational (Low)",
+					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
+					"instances":[ 
+						{
+							"id": "1",
+							"uri": "https://exceleratetechnologies.com/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "8",
+							"uri": "https://exceleratetechnologies.com/robots.txt",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/robots.txt",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "64",
+							"uri": "https://exceleratetechnologies.com/wp-json/wp/v2/pages/9",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-json\/wp\/v2\/pages\/9",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "46",
+							"uri": "https://exceleratetechnologies.com/wp-sitemap-index.xsl",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-sitemap-index.xsl",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "31",
+							"uri": "https://exceleratetechnologies.com/wp-sitemap.xml",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-sitemap.xml",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						}
+					],
+					"count": "5",
+					"systemic": true,
+					"solution": "<p>For secure content, ensure the cache-control HTTP header is set with \"no-cache, no-store, must-revalidate\". If an asset should be cached consider setting the directives \"public, max-age, immutable\".</p>",
+					"otherinfo": "",
+					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
+					"cweid": "525",
+					"wascid": "13",
+					"sourceid": "1"
+				},
+				{
+					"pluginid": "10112",
+					"alertRef": "10112",
+					"alert": "Session Management Response Identified",
+					"name": "Session Management Response Identified",
+					"riskcode": "0",
+					"confidence": "2",
+					"riskdesc": "Informational (Medium)",
+					"desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>",
+					"instances":[ 
+						{
+							"id": "475",
+							"uri": "https://exceleratetechnologies.com/wp-login.php",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php",
+							"method": "GET",
+							"param": "wordpress_test_cookie",
+							"attack": "",
+							"evidence": "wordpress_test_cookie",
+							"otherinfo": "cookie:wordpress_test_cookie"
+						},
+						{
+							"id": "86",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?action=lostpassword",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (action)",
+							"method": "GET",
+							"param": "wordpress_test_cookie",
+							"attack": "",
+							"evidence": "wordpress_test_cookie",
+							"otherinfo": "cookie:wordpress_test_cookie"
+						},
+						{
+							"id": "41",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fexceleratetechnologies.com%2Fwp-admin%2F",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (reauth,redirect_to)",
+							"method": "GET",
+							"param": "wordpress_test_cookie",
+							"attack": "",
+							"evidence": "wordpress_test_cookie",
+							"otherinfo": "cookie:wordpress_test_cookie"
+						},
+						{
+							"id": "599",
+							"uri": "https://exceleratetechnologies.com/wp-login.php",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php ()(log,pwd,redirect_to,rememberme,testcookie,wp-submit)",
+							"method": "POST",
+							"param": "wordpress_test_cookie",
+							"attack": "",
+							"evidence": "wordpress_test_cookie",
+							"otherinfo": "cookie:wordpress_test_cookie"
+						},
+						{
+							"id": "575",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?action=lostpassword",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (action)(redirect_to,user_login,wp-submit)",
+							"method": "POST",
+							"param": "wordpress_test_cookie",
+							"attack": "",
+							"evidence": "wordpress_test_cookie",
+							"otherinfo": "cookie:wordpress_test_cookie"
+						}
+					],
+					"count": "5",
+					"systemic": false,
+					"solution": "<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>",
+					"otherinfo": "<p>cookie:wordpress_test_cookie</p>",
+					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id/</p>",
+					"cweid": "-1",
+					"wascid": "-1",
+					"sourceid": "487"
+				},
+				{
+					"pluginid": "10104",
+					"alertRef": "10104",
+					"alert": "User Agent Fuzzer",
+					"name": "User Agent Fuzzer",
+					"riskcode": "0",
+					"confidence": "2",
+					"riskdesc": "Informational (Medium)",
+					"desc": "<p>Check for differences in response based on fuzzed User Agent (eg. mobile sites, access as a Search Engine Crawler). Compares the response statuscode and the hashcode of the response body with the original response.</p>",
+					"instances":[ 
+						{
+							"id": "3259",
+							"uri": "https://exceleratetechnologies.com/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/",
+							"method": "GET",
+							"param": "Header User-Agent",
+							"attack": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "3258",
+							"uri": "https://exceleratetechnologies.com/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/",
+							"method": "GET",
+							"param": "Header User-Agent",
+							"attack": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "3257",
+							"uri": "https://exceleratetechnologies.com/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/",
+							"method": "GET",
+							"param": "Header User-Agent",
+							"attack": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1)",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "3260",
+							"uri": "https://exceleratetechnologies.com/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/",
+							"method": "GET",
+							"param": "Header User-Agent",
+							"attack": "Mozilla/5.0 (Windows NT 10.0; Trident/7.0; rv:11.0) like Gecko",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "3261",
+							"uri": "https://exceleratetechnologies.com/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/",
+							"method": "GET",
+							"param": "Header User-Agent",
+							"attack": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3739.0 Safari/537.36 Edg/75.0.109.0",
+							"evidence": "",
+							"otherinfo": ""
+						}
+					],
+					"count": "5",
+					"systemic": true,
+					"solution": "",
+					"otherinfo": "",
+					"reference": "<p>https://owasp.org/wstg</p>",
+					"cweid": "0",
+					"wascid": "0",
+					"sourceid": "1928"
+				},
+				{
+					"pluginid": "10031",
+					"alertRef": "10031",
+					"alert": "User Controllable HTML Element Attribute (Potential XSS)",
+					"name": "User Controllable HTML Element Attribute (Potential XSS)",
+					"riskcode": "0",
+					"confidence": "1",
+					"riskdesc": "Informational (Low)",
+					"desc": "<p>This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability.</p>",
+					"instances":[ 
+						{
+							"id": "102",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?action=lostpassword",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (action)",
+							"method": "GET",
+							"param": "action",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://exceleratetechnologies.com/wp-login.php?action=lostpassword\n\nappears to include user input in:\na(n) [form] tag [name] attribute\n\nThe user input found was:\naction=lostpassword\n\nThe user-controlled value was:\nlostpasswordform"
+						},
+						{
+							"id": "76",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fexceleratetechnologies.com%2Fwp-admin%2F",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (reauth,redirect_to)",
+							"method": "GET",
+							"param": "redirect_to",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://exceleratetechnologies.com/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fexceleratetechnologies.com%2Fwp-admin%2F\n\nappears to include user input in:\na(n) [link] tag [href] attribute\n\nThe user input found was:\nredirect_to=https://exceleratetechnologies.com/wp-admin/\n\nThe user-controlled value was:\nhttps://exceleratetechnologies.com/wp-admin/css/forms.min.css?ver=6.9"
+						},
+						{
+							"id": "1371",
+							"uri": "https://exceleratetechnologies.com/contact-us/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/contact-us\/ ()(form_fields[email],form_fields[field_38af2e1],form_fields[field_d180781],form_fields[field_e02732f],form_fields[message],form_fields[name],form_id,post_id,queried_id,referer_title)",
+							"method": "POST",
+							"param": "form_fields[field_d180781]",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://exceleratetechnologies.com/contact-us/\n\nappears to include user input in:\na(n) [input] tag [title] attribute\n\nThe user input found was:\nform_fields[field_d180781]=on\n\nThe user-controlled value was:\nonly numbers and phone characters (#, -, *, etc) are accepted."
+						},
+						{
+							"id": "1362",
+							"uri": "https://exceleratetechnologies.com/contact-us/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/contact-us\/ ()(form_fields[email],form_fields[field_38af2e1],form_fields[field_d180781],form_fields[field_e02732f],form_fields[message],form_fields[name],form_id,post_id,queried_id,referer_title)",
+							"method": "POST",
+							"param": "form_id",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://exceleratetechnologies.com/contact-us/\n\nappears to include user input in:\na(n) [div] tag [data-id] attribute\n\nThe user input found was:\nform_id=485fb34\n\nThe user-controlled value was:\n485fb34"
+						},
+						{
+							"id": "1360",
+							"uri": "https://exceleratetechnologies.com/contact-us/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/contact-us\/ ()(form_fields[email],form_fields[field_38af2e1],form_fields[field_d180781],form_fields[field_e02732f],form_fields[message],form_fields[name],form_id,post_id,queried_id,referer_title)",
+							"method": "POST",
+							"param": "post_id",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://exceleratetechnologies.com/contact-us/\n\nappears to include user input in:\na(n) [div] tag [data-elementor-id] attribute\n\nThe user input found was:\npost_id=28\n\nThe user-controlled value was:\n28"
+						},
+						{
+							"id": "1361",
+							"uri": "https://exceleratetechnologies.com/contact-us/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/contact-us\/ ()(form_fields[email],form_fields[field_38af2e1],form_fields[field_d180781],form_fields[field_e02732f],form_fields[message],form_fields[name],form_id,post_id,queried_id,referer_title)",
+							"method": "POST",
+							"param": "queried_id",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://exceleratetechnologies.com/contact-us/\n\nappears to include user input in:\na(n) [div] tag [data-elementor-id] attribute\n\nThe user input found was:\nqueried_id=28\n\nThe user-controlled value was:\n28"
+						},
+						{
+							"id": "1363",
+							"uri": "https://exceleratetechnologies.com/contact-us/",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/contact-us\/ ()(form_fields[email],form_fields[field_38af2e1],form_fields[field_d180781],form_fields[field_e02732f],form_fields[message],form_fields[name],form_id,post_id,queried_id,referer_title)",
+							"method": "POST",
+							"param": "referer_title",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://exceleratetechnologies.com/contact-us/\n\nappears to include user input in:\na(n) [form] tag [name] attribute\n\nThe user input found was:\nreferer_title=Contact us\n\nThe user-controlled value was:\ncontact us"
+						},
+						{
+							"id": "623",
+							"uri": "https://exceleratetechnologies.com/wp-login.php",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php ()(log,pwd,redirect_to,rememberme,testcookie,wp-submit)",
+							"method": "POST",
+							"param": "redirect_to",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://exceleratetechnologies.com/wp-login.php\n\nappears to include user input in:\na(n) [link] tag [href] attribute\n\nThe user input found was:\nredirect_to=https://exceleratetechnologies.com/wp-admin/\n\nThe user-controlled value was:\nhttps://exceleratetechnologies.com/wp-admin/css/forms.min.css?ver=6.9"
+						},
+						{
+							"id": "629",
+							"uri": "https://exceleratetechnologies.com/wp-login.php",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php ()(log,pwd,redirect_to,rememberme,testcookie,wp-submit)",
+							"method": "POST",
+							"param": "rememberme",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://exceleratetechnologies.com/wp-login.php\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nrememberme=forever\n\nThe user-controlled value was:\nforever"
+						},
+						{
+							"id": "630",
+							"uri": "https://exceleratetechnologies.com/wp-login.php",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php ()(log,pwd,redirect_to,rememberme,testcookie,wp-submit)",
+							"method": "POST",
+							"param": "wp-submit",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://exceleratetechnologies.com/wp-login.php\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nwp-submit=Log In\n\nThe user-controlled value was:\nlog in"
+						},
+						{
+							"id": "601",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?action=lostpassword",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (action)(redirect_to,user_login,wp-submit)",
+							"method": "POST",
+							"param": "action",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://exceleratetechnologies.com/wp-login.php?action=lostpassword\n\nappears to include user input in:\na(n) [form] tag [name] attribute\n\nThe user input found was:\naction=lostpassword\n\nThe user-controlled value was:\nlostpasswordform"
+						},
+						{
+							"id": "603",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?action=lostpassword",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (action)(redirect_to,user_login,wp-submit)",
+							"method": "POST",
+							"param": "user_login",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://exceleratetechnologies.com/wp-login.php?action=lostpassword\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nuser_login=ZAP\n\nThe user-controlled value was:\nzap"
+						},
+						{
+							"id": "604",
+							"uri": "https://exceleratetechnologies.com/wp-login.php?action=lostpassword",
+							"nodeName": "https:\/\/exceleratetechnologies.com\/wp-login.php (action)(redirect_to,user_login,wp-submit)",
+							"method": "POST",
+							"param": "wp-submit",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://exceleratetechnologies.com/wp-login.php?action=lostpassword\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nwp-submit=Get New Password\n\nThe user-controlled value was:\nget new password"
+						}
+					],
+					"count": "13",
+					"systemic": false,
+					"solution": "<p>Validate all input and sanitize output it before writing to any HTML attributes.</p>",
+					"otherinfo": "<p>User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:</p><p></p><p>https://exceleratetechnologies.com/wp-login.php?action=lostpassword</p><p></p><p>appears to include user input in:</p><p>a(n) [form] tag [name] attribute</p><p></p><p>The user input found was:</p><p>action=lostpassword</p><p></p><p>The user-controlled value was:</p><p>lostpasswordform</p>",
+					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html</p>",
+					"cweid": "20",
+					"wascid": "20",
+					"sourceid": "81"
+				}
+			]
+		}
+	],
+	"sequences":[
+	]
+
+}
