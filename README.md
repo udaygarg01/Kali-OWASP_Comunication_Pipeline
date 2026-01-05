@@ -1,5 +1,5 @@
 
-# Kali OWASP Scan Pipeline (POC)
+# Kali OWASP Communication Pipeline (POC)
 
 ## Overview
 
