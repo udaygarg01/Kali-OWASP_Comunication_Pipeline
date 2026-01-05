@@ -61,8 +61,8 @@ No additional services (Redis, Kubernetes, etc.) are required for this POC.
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd kali-owasp-scan-pipeline
+git clone https://github.com/udaygarg01/Kali-OWASP_Comunication_Pipeline.git
+cd Kali-OWASP_Comunication_Pipeline
 ```
 
 ---
